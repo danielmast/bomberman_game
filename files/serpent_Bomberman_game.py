@@ -27,7 +27,10 @@ class SerpentBombermanGame(Game, metaclass=Singleton):
     def screen_regions(self):
 
         regions = {
-            "SCREEN1_PLAY_BUTTON": (615, 392, 647, 537)
+            "SPLASH_SCREEN_PLAY_BUTTON": (548, 438, 587, 475),
+            "PLAYER_MENU_1_PLAYER_BUTTON": (482, 424, 497, 515),
+            "OPPONENT_MENU_1_OPPONENT_BUTTON": (481, 426, 497, 506),
+            "LEVEL_MENU_LEVEL_1_BUTTON": (482, 434, 496, 495)
         }
 
         return regions
