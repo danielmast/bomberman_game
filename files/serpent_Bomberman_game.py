@@ -28,9 +28,11 @@ class SerpentBombermanGame(Game, metaclass=Singleton):
 
         regions = {
             "SPLASH_SCREEN_PLAY_BUTTON": (548, 438, 587, 475),
-            "PLAYER_MENU_1_PLAYER_BUTTON": (482, 424, 497, 515),
+            "PLAYER_MENU_1_PLAYER_BUTTON": (484, 431, 496, 496),
             "OPPONENT_MENU_1_OPPONENT_BUTTON": (481, 426, 497, 506),
-            "LEVEL_MENU_LEVEL_1_BUTTON": (482, 434, 496, 495)
+            "LEVEL_MENU_LEVEL_1_BUTTON": (482, 434, 496, 495),
+            "END_OF_ROUND_PLAY_NOW_BUTTON": (490, 476, 503, 546),
+            "END_OF_GAME_PLAY_AGAIN_BUTTON": (504, 423, 519, 506)
         }
 
         return regions

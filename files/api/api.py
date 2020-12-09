@@ -34,3 +34,15 @@ class BombermanAPI(GameAPI):
             BombermanAPI.instance.input_controller.click_screen_region(
                 screen_region="LEVEL_MENU_LEVEL_1_BUTTON"
             )
+
+        @classmethod
+        def click_play_now_button(cls):
+            BombermanAPI.instance.input_controller.click_screen_region(
+                screen_region="END_OF_ROUND_PLAY_NOW_BUTTON"
+            )
+
+        @classmethod
+        def click_play_again_button(cls):
+            BombermanAPI.instance.input_controller.click_screen_region(
+                screen_region="END_OF_GAME_PLAY_AGAIN_BUTTON"
+            )
