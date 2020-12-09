@@ -12,7 +12,8 @@ class SerpentBombermanGame(Game, metaclass=Singleton):
     def __init__(self, **kwargs):
         kwargs["platform"] = "web_browser"
 
-        kwargs["window_name"] = "Bomberman 4 - Online Spel - Speel Nu | spele.nl"
+        # Game URL: https://www.speelspelletjes.nl/spel/playing-with-fire-2
+        kwargs["window_name"] = "Playing With Fire 2 - Speel Playing With Fire 2 op Speel Spelletjes - Google Chrome"
         
         kwargs["url"] = "URL"
         kwargs["browser"] = WebBrowser.DEFAULT
